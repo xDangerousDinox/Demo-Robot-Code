@@ -3,7 +3,6 @@ package com.team949.auto;
 import com.team949.Robot;
 import com.team949.commands.ArmLower;
 import com.team949.commands.ArmRaise;
-import com.team949.commands.HandIntake;
 import com.team949.commands.HandRaise;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;

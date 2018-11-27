@@ -2,7 +2,7 @@ package com.team949.subsystems;
 
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 import com.team949.RobotMap;
-import edu.wpi.first.wpilibj.Servo;
+
 import edu.wpi.first.wpilibj.command.Subsystem;
 
 /**

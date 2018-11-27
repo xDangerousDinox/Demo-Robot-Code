@@ -2,7 +2,6 @@ package com.team949.commands;
 
 import com.team949.Robot;
 
-import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.TimedCommand;
 
 /**
