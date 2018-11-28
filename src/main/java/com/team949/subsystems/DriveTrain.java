@@ -1,10 +1,7 @@
 package com.team949.subsystems;
 
-import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.FeedbackDevice;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
-import com.team949.Constants;
-import com.team949.Robot;
 import com.team949.RobotMap;
 
 import edu.wpi.first.wpilibj.ADXRS450_Gyro;
@@ -13,7 +10,6 @@ import edu.wpi.first.wpilibj.SpeedControllerGroup;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
-import edu.wpi.first.wpilibj.interfaces.Gyro;
 
 /**
  *

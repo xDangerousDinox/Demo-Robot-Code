@@ -1,7 +1,6 @@
 package com.team949.auto;
 
 import com.team949.Robot;
-import com.team949.commands.ArmRaise;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
 

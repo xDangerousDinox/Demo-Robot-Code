@@ -2,11 +2,8 @@ package com.team949.subsystems;
 
 import com.ctre.phoenix.motorcontrol.FeedbackDevice;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
-import com.team949.Robot;
 import com.team949.RobotMap;
 
-import edu.wpi.first.wpilibj.Encoder;
-import edu.wpi.first.wpilibj.PIDController;
 import edu.wpi.first.wpilibj.Servo;
 import edu.wpi.first.wpilibj.command.Subsystem;
 
@@ -63,8 +60,7 @@ public class Arm extends Subsystem {
 	/**
 	 * Default .set() method
 	 * 
-	 * @param moveValue
-	 *            -1.0 to 1.0
+	 * @param moveValue -1.0 to 1.0
 	 */
 	public void move(double moveValue) {
 		armMotor.set(-moveValue);

@@ -1,50 +1,32 @@
 
 package com.team949;
 
-import edu.wpi.cscore.UsbCamera;
-import edu.wpi.first.wpilibj.CameraServer;
-import edu.wpi.first.wpilibj.DriverStation;
-import edu.wpi.first.wpilibj.IterativeRobot;
-import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.TimedRobot;
-import edu.wpi.first.wpilibj.command.Command;
-import edu.wpi.first.wpilibj.command.CommandGroup;
-import edu.wpi.first.wpilibj.command.Scheduler;
-import edu.wpi.first.wpilibj.livewindow.LiveWindow;
-import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-
-import java.io.IOException;
-
+import com.team949.auto.AutoLine;
 import com.team949.auto.LeftSideLeftScale;
 import com.team949.auto.LeftSideRightScale;
-import com.team949.auto.MiddleLeftSwitch;
-import com.team949.auto.MiddleRightSwitch;
 import com.team949.auto.RightSideLeftScale;
 import com.team949.auto.RightSideRightScale;
 import com.team949.auto.SwitchLaunch;
-import com.team949.auto.TestAutoCubePlace;
-import com.team949.auto.AutoLine;
-import com.team949.auto.AutoWristScalePlace;
-import com.team949.auto.GyroDirectionMove;
-import com.team949.auto.HardArmMove;
-import com.team949.auto.HardMoveForward;
-import com.team949.auto.HardTurn;
-import com.team949.auto.HardWristRaise;
 import com.team949.commands.ArmLower;
 import com.team949.commands.ArmRaise;
 import com.team949.commands.DelayedShoot;
-//import com.team949.commands.FollowTrajectory;
-import com.team949.commands.HandLower;
-import com.team949.commands.HandRaise;
 import com.team949.commands.HandStow;
-import com.team949.commands.ShitForward;
-import com.team949.commands.Test;
 //import com.team949.paths.ThreeFeet;
 import com.team949.subsystems.Arm;
 import com.team949.subsystems.Climber;
 import com.team949.subsystems.DriveTrain;
 import com.team949.subsystems.Hand;
+
+import edu.wpi.cscore.UsbCamera;
+import edu.wpi.first.wpilibj.CameraServer;
+import edu.wpi.first.wpilibj.DriverStation;
+import edu.wpi.first.wpilibj.Joystick;
+import edu.wpi.first.wpilibj.TimedRobot;
+import edu.wpi.first.wpilibj.command.Command;
+import edu.wpi.first.wpilibj.command.CommandGroup;
+import edu.wpi.first.wpilibj.command.Scheduler;
+import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 /**
  * The VM is configured to automatically run this class, and to call the
