@@ -2,7 +2,6 @@ package com.team949.auto;
 
 import com.team949.Robot;
 
-import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.command.TimedCommand;
 
 /**

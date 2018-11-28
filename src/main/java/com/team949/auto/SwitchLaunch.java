@@ -2,7 +2,6 @@ package com.team949.auto;
 
 import com.team949.Robot;
 import com.team949.commands.DelayedShoot;
-import com.team949.commands.HandLower;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
 
