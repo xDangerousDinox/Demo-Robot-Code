@@ -79,7 +79,9 @@ public class Robot extends TimedRobot {
 		this.startingPositionChooser.addObject("Middle", M);
 		this.startingPositionChooser.addObject("Right", R);
 		SmartDashboard.putData("Auto: Starting Position", this.startingPositionChooser);
-
+		
+		SmartDashboard.putNumber("Velocity Left", driveTrain.getLeftVelocity());
+		SmartDashboard.putNumber("Velocity Right", driveTrain.getRightVelocity());
 		this.targetScoringChooser.addDefault("Scale", SCALE);
 		this.targetScoringChooser.addObject("AutoLine", AUTO_LINE);
 		this.targetScoringChooser.addObject("Switch", "Switch");

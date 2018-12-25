@@ -62,6 +62,7 @@ public class DriveTrain extends Subsystem {
 		this.drive.setSafetyEnabled(false);
 	}
 
+
 	private void setUpEncoders() {
 		r0.configSelectedFeedbackSensor(FeedbackDevice.CTRE_MagEncoder_Relative, 0, 0);
 		r0.setSensorPhase(false);
